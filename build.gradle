@@ -21,6 +21,8 @@ dependencies {
     compile "io.appium:java-client:6.1.0"
 
     compile 'io.qameta.allure:allure-cucumber-jvm:2.8.1'
+
+    testRuntimeOnly('io.qameta.allure:allure-junit5:2.10.0')
 }
 
 configurations {
@@ -28,6 +30,7 @@ configurations {
         extendsFrom testRuntime
     }
 }
+
 task runFeatures() {
     dependsOn assemble, compileTestJava
     doLast {
