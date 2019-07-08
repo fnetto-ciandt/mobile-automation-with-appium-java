@@ -6,10 +6,10 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 public class CadastroScreen extends BaseScreen {
 
     @AndroidFindBy(id="fab")
-    private MobileElement btnNovo;
+    private MobileElement btnNew;
 
-    public void tocarEmFormulario(){
+    public void clicarEmNovoCadastro(){
 
-        btnNovo.click();
+        btnNew.click();
     }
 }
