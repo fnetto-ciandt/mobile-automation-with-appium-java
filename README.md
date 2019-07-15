@@ -79,7 +79,7 @@ Pronto! Seu ambiente de desenvolvimento está configurado.
 
 ---
 
-**Execução dos testes:**
+## Execução dos testes:
 
 **No Android Studio**
 
@@ -90,7 +90,7 @@ Em construção
 Em construção
 
 
-## Linha de comando
+### Linha de comando
 
 1- Utilizando o terminal apartir da pasta do projeto execute o comando 
 
@@ -100,6 +100,6 @@ Em construção
 
 allure serve
 
-## Pela IDE
+### Pela IDE
 
 Em construção
